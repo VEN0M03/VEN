@@ -4,6 +4,6 @@ import platform,os
 os.system("git pull")
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import 16
+    import V16
 elif bit == '32bit':
     import V16
